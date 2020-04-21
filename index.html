@@ -17,6 +17,13 @@
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		html {
+  scroll-behavior: smooth;
+}
+</style>
+
 </head>
 
 <body>
@@ -39,24 +46,10 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="portfolio.html">Patent</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Resume</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Achievements</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
+							<li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#patent-section">Patent</a></li>
+							<li class="nav-item"><a class="nav-link" href="portfolio.html">Resume</a></li>
+							<li class="nav-item"><a class="nav-link" href="portfolio.html">Achievements</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Projects</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
@@ -84,7 +77,7 @@
 								<a href="#"><i class="ti-instagram"></i></a>
 								<a href="#"><i class="ti-skype"></i></a>
 							</div>
-							<a class="primary_btn" href="#"><span>Patent Information</span></a>
+							<a class="primary_btn" href="#patent-section"><span>Patent Information</span></a>
 						</div>
 					</div>
 					<div class="col-lg-4">
@@ -126,7 +119,7 @@
 	<!--================ End Statistics Area =================-->
 
 	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap">
+	<section class="about_area section_gap" id="about-section">
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-5">
@@ -146,7 +139,7 @@
 							Dr. Dhanashree Tharkude is currently serving as an Assistant Professor and Corporate
 							Relations Member at MIT World Peace University - School of Management (PG).
 						</p>
-						<a class="primary_btn" href="#"><span>RESUME</span></a>
+						<a class="primary_btn" href="about.html"><span>Read More</span></a>
 					</div>
 				</div>
 			</div>
@@ -155,7 +148,7 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================ Start Features Area =================-->
-	<section class="services_area">
+	<section class="services_area" id="patent-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -254,21 +247,11 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title">
-						<p class="top_text">Associations <span></span></p>
-						<h2>Check Our Recent <br>
-							Associations </h2>
+						<p class="top_text">Gallery <span></span></p>
+						<h2>Events, Field Visits <br>
+							and Organization </h2>
 					</div>
 				</div>
-			</div>
-
-			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">all</li>
-					<li data-filter=".popular">popular</li>
-					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
-				</ul>
 			</div>
 
 			<div class="filters-content">
@@ -276,10 +259,10 @@
 					<div class="grid-sizer col-md-3 col-lg-3"></div>
 					<div class="col-lg-6 col-md-6 all following">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p1.jpeg" alt="">
-							<div class="overlay"></div>
+							<img class="img-fluid w-100" src="img/portfolio/p15.jpeg" alt="">
+							
 							<div class="short_info">
-								<h4><a href="portfolio-details.html"></a></h4>
+								<h4><a href="gallery.html"></a></h4>
 								<p></p>
 							</div>
 						</div>
@@ -287,10 +270,10 @@
 
 					<div class="col-lg-6 col-md-6 all latest popular upcoming">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p4.jpeg" alt="">
-							<div class="overlay"></div>
+							<img class="img-fluid w-100" src="img/portfolio/p18.jpeg" alt="">
+							
 							<div class="short_info">
-								<h4><a href="portfolio-details.html"></a></h4>
+								<h4><a href="gallery.html"></a></h4>
 								<p></p>
 							</div>
 						</div>
@@ -298,10 +281,10 @@
 
 					<div class="col-lg-3 col-md-6 all latest following">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
-							<div class="overlay"></div>
+							<img class="img-fluid w-100" src="img/portfolio/p16.jpg" alt="">
+							
 							<div class="short_info">
-								<h4><a href="portfolio-details.html"></a></h4>
+								<h4><a href="gallery.html"></a></h4>
 								<p></p>
 							</div>
 						</div>
@@ -309,10 +292,10 @@
 
 					<div class="col-lg-3 col-md-6 all latest upcoming">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
-							<div class="overlay"></div>
+							<img class="img-fluid w-100" src="img/portfolio/p17.jpg" alt="">
+							
 							<div class="short_info">
-								<h4><a href="portfolio-details.html"></a></h4>
+								<h4><a href="gallery.html"></a></h4>
 								<p></p>
 							</div>
 						</div>
@@ -320,10 +303,10 @@
 
 					<div class="col-lg-6 col-md-6 all popular">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
-							<div class="overlay"></div>
+							<img class="img-fluid w-100" src="img/portfolio/p20.jpg" alt="">
+							
 							<div class="short_info">
-								<h4><a href="portfolio-details.html"></a></h4>
+								<h4><a href="gallery.html"></a></h4>
 								<p></p>
 							</div>
 						</div>
@@ -331,10 +314,21 @@
 
 					<div class="col-lg-6 col-md-6 all popular latest following">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p5.jpeg" alt="">
-							<div class="overlay"></div>
+							<img class="img-fluid w-100" src="img/portfolio/p19.jpeg" alt="">
+							
 							<div class="short_info">
-								<h4><a href="portfolio-details.html"></a></h4>
+								<h4><a href="gallery.html"></a></h4>
+								<p></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 all popular latest following">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
+							
+							<div class="short_info">
+								<h4><a href="gallery.html"></a></h4>
 								<p></p>
 							</div>
 						</div>
@@ -342,22 +336,7 @@
 
 				</div>
 			</div>
-		</div>
-	</section>
-	<!--================ End Portfolio Area =================-->
 
-	<!--================ Start Blog Area =================-->
-	<section class="blog-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<p class="top_text">Gallery <span></span></p>
-						<h2>Events, Programs <br>
-							and Organization </h2>
-					</div>
-				</div>
-			</div>
 
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
@@ -372,10 +351,10 @@
 							</a>
 							<div class="text-wrap">
 								<p>
-									Global Immersion Program for MIT-WPU Students at University of Hull, UK.
+									Global Immersion Program for MIT-WPU Students at University of Leicester, UK.
 								</p>
 							</div>
-							<a href="#" class="primary_btn2">Learn More</a>
+							<a href="#" class="primary_btn2">Load More</a>
 						</div>
 					</div>
 				</div>
@@ -394,7 +373,7 @@
 									Industry Visits organized for students of MIT-WPU School of Management (PG)
 								</p>
 							</div>
-							<a href="#" class="primary_btn2">Learn More</a>
+							<a href="#" class="primary_btn2">Load More</a>
 						</div>
 					</div>
 				</div>
@@ -413,7 +392,7 @@
 									Organized Corporate Events and Academic Events for University such as The Pink Wave 
 								</p>
 							</div>
-							<a href="#" class="primary_btn2">Learn More</a>
+							<a href="#" class="primary_btn2">Load More</a>
 						</div>
 					</div>
 				</div>
